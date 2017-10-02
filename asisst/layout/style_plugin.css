@@ -1,0 +1,191 @@
+/*searchpayment*/
+.cssload-container * {
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.cssload-container {
+    margin: 28px auto 0 auto;
+    max-width: 769px;
+}
+
+.cssload-container ul li{
+    list-style: none;
+}
+
+.cssload-flex-container {
+    display: flex;
+    display: -o-flex;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: row;
+    -o-flex-direction: row;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cssload-flex-container li {
+    padding: 14px;
+    height: 138px;
+    width: 138px;
+    margin: 41px 28px;
+    position: relative;
+    text-align: center;
+}
+
+.cssload-loading, .cssload-loading:after, .cssload-loading:before {
+    display: inline-block;
+    position: relative;
+    width: 7px;
+    height: 69px;
+    background: rgb(0,0,0);
+    margin-top: 7px;
+    border-radius: 1375px;
+    -o-border-radius: 1375px;
+    -ms-border-radius: 1375px;
+    -webkit-border-radius: 1375px;
+    -moz-border-radius: 1375px;
+    animation: cssload-upDown2 0.8s ease infinite;
+    -o-animation: cssload-upDown2 0.8s ease infinite;
+    -ms-animation: cssload-upDown2 0.8s ease infinite;
+    -webkit-animation: cssload-upDown2 0.8s ease infinite;
+    -moz-animation: cssload-upDown2 0.8s ease infinite;
+    animation-direction: alternate;
+    -o-animation-direction: alternate;
+    -ms-animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    -moz-animation-direction: alternate;
+    animation-delay: 0.2025s;
+    -o-animation-delay: 0.2025s;
+    -ms-animation-delay: 0.2025s;
+    -webkit-animation-delay: 0.2025s;
+    -moz-animation-delay: 0.2025s;
+}
+.cssload-loading:after, .cssload-loading:before {
+    position: absolute;
+    content: '';
+    animation: cssload-upDown 0.8s ease infinite;
+    -o-animation: cssload-upDown 0.8s ease infinite;
+    -ms-animation: cssload-upDown 0.8s ease infinite;
+    -webkit-animation: cssload-upDown 0.8s ease infinite;
+    -moz-animation: cssload-upDown 0.8s ease infinite;
+    animation-direction: alternate;
+    -o-animation-direction: alternate;
+    -ms-animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    -moz-animation-direction: alternate;
+}
+.cssload-loading:before {
+    left: -14px;
+}
+.cssload-loading:after {
+    left: 14px;
+    animation-delay: 0.395s;
+    -o-animation-delay: 0.395s;
+    -ms-animation-delay: 0.395s;
+    -webkit-animation-delay: 0.395s;
+    -moz-animation-delay: 0.395s;
+}
+
+
+
+
+@keyframes cssload-upDown {
+    from {
+        transform: translateY(28px);
+    }
+    to {
+        transform: translateY(-28px);
+    }
+}
+
+@-o-keyframes cssload-upDown {
+    from {
+        -o-transform: translateY(28px);
+    }
+    to {
+        -o-transform: translateY(-28px);
+    }
+}
+
+@-ms-keyframes cssload-upDown {
+    from {
+        -ms-transform: translateY(28px);
+    }
+    to {
+        -ms-transform: translateY(-28px);
+    }
+}
+
+@-webkit-keyframes cssload-upDown {
+    from {
+        -webkit-transform: translateY(28px);
+    }
+    to {
+        -webkit-transform: translateY(-28px);
+    }
+}
+
+@-moz-keyframes cssload-upDown {
+    from {
+        -moz-transform: translateY(28px);
+    }
+    to {
+        -moz-transform: translateY(-28px);
+    }
+}
+
+@keyframes cssload-upDown2 {
+    from {
+        transform: translateY(41px);
+    }
+    to {
+        transform: translateY(-28px);
+    }
+}
+
+@-o-keyframes cssload-upDown2 {
+    from {
+        -o-transform: translateY(41px);
+    }
+    to {
+        -o-transform: translateY(-28px);
+    }
+}
+
+@-ms-keyframes cssload-upDown2 {
+    from {
+        -ms-transform: translateY(41px);
+    }
+    to {
+        -ms-transform: translateY(-28px);
+    }
+}
+
+@-webkit-keyframes cssload-upDown2 {
+    from {
+        -webkit-transform: translateY(41px);
+    }
+    to {
+        -webkit-transform: translateY(-28px);
+    }
+}
+
+@-moz-keyframes cssload-upDown2 {
+    from {
+        -moz-transform: translateY(41px);
+    }
+    to {
+        -moz-transform: translateY(-28px);
+    }
+}
+/*end search payment*/

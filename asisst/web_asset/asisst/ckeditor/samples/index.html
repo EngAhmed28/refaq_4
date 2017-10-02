@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>A Simple Page with CKEditor</title>
+        <!-- Make sure the path to CKEditor is correct. -->
+        <script src="../ckeditor.js"></script>
+    </head>
+    <body>
+        <form>
+            <textarea name="" id="xxx" rows="10" cols="80">
+                This is my textarea to be replaced with CKEditor.
+            </textarea>
+            <script>
+                // Replace the <textarea id="editor1"> with a CKEditor
+                // instance, using default configuration.
+                var Idoftextearia = document.getElementsByTagName("textarea");
+                for (var i = 0; i < Idoftextearia.length; i++) {
+                    CKEDITOR.replace(Idoftextearia[i].getAttribute("id"));
+                }
+            </script>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+#owl-demo .item {
+    margin: 10px;
+    color: #FFF;
+    text-align: center;
+}
+
+#owl-demo {
+    direction: ltr !important;
+}
+
+#owl-demo .carousel-indicators {
+    display: none;
+}
